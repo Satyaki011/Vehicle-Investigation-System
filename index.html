@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Investigation System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Vehicle Investigation System</h1>
+    </header>
+    <main>
+        <section class="search">
+            <input type="text" id="vehicleNumber" placeholder="Enter Vehicle Number">
+            <button onclick="searchVehicle()">Search</button>
+        </section>
+        <section class="speed-calculation">
+            <input type="number" id="distance" placeholder="Enter Distance (km)">
+            <input type="number" id="time" placeholder="Enter Time (hours)">
+            <button onclick="calculateSpeed()">Calculate Speed</button>
+        </section>
+        <section id="vehicleDetails"></section>
+        <section id="carImage"></section>
+        <section id="speedResult"></section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
